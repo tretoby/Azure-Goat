@@ -32,7 +32,7 @@ Set up resource group, virtual machine name, and choose a windows image
 allow RDP (3389) to be open to attract malicious traffic 
 ![image](https://github.com/user-attachments/assets/baba3b81-debc-448b-bae8-985daa1aac63)
 
-deploy virtual machine
+
 ![image](https://github.com/user-attachments/assets/e77471b4-2429-4c3d-8c0d-9057741aca40)
 
 While the virtual machine is deploying navigate to Microsoft Sentinal
