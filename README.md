@@ -38,7 +38,7 @@ allow RDP (3389) to be open to attract malicious traffic
 While the virtual machine is deploying navigate to Microsoft Sentinal
 ![image](https://github.com/user-attachments/assets/9cdd5cbe-fc37-4d96-81a7-86452ec14e9a)
 
-creat log analytics workspace using the resource group created in the virtual machine setup 
+create log analytics workspace using the resource group created in the virtual machine setup 
 ![image](https://github.com/user-attachments/assets/2cdc5ee0-60a0-41e9-9244-a81485c054ff)
 
 deploy workspace 
@@ -71,10 +71,10 @@ create rule
 navigate to logs and wait for an inident to occur
 ![image](https://github.com/user-attachments/assets/df38a7c1-0901-4dc4-8d4f-b7484f8fdbd2)
 
-can set custom querys to filter through events 
+you can set custom querys to filter through events 
 ![image](https://github.com/user-attachments/assets/21d317c7-2d45-4c9c-80db-1b364f4fd448)
 
-special privileges assigned to new login 
+malicious logon occured on my virtual machine, (special privileges assigned to new login) 
 ![image](https://github.com/user-attachments/assets/978d8af5-550d-49cf-b0ad-3c48d3eec2aa)
 
 select logon activity by account
@@ -83,7 +83,7 @@ select logon activity by account
 create an alert rule to detect every 5 mins
 ![image](https://github.com/user-attachments/assets/ae51358e-ffe1-4d17-bb41-54c239c27e5c)
 
-navigate to the nalytics workspace and see new alerts for everytime a logon occurs  
+navigate to the analytics workspace and see new alerts everytime a logon occurs  
 ![image](https://github.com/user-attachments/assets/7bd32022-c52f-4d47-8387-c8a8a292f1ef)
 
 
